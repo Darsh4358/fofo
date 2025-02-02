@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/download.gif);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.p img{
+    width: 21em;
+    height: 25em;
+    position: absolute;
+    border-radius: 6px;
+    top: 27%;
+    left: 8%;
+}
+
+.p .para{
+    position: absolute;
+    font-size: larger;
+}
+
+.btn{
+    position: absolute;
+    background-color: #b50d12a8;
+    color: #fff;
+    width: 10em;
+    height: 2em;
+    border: none;
+    top: 24%;
+    font-family: cursive;
+    left: 33%;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+.btn:hover {
+    background-color: #b50d13;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
